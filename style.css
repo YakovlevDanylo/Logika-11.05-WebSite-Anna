@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    background-color:gray; 
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color:black ;
+
+}
+
+nav {
+    padding-bottom: 5px;
+    font-size: 24px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    transition: 0.5s;
+    color: grey;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 0px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.sobaka {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+    width: 1280px;
+    padding: 20px;
+
+}
+
+a {
+    color: black;
+}
+
+.cat {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+    width: 1280px;
+    padding: 20px;
+}
+
+ .cat img {
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+  }
+
+  .cat h2 {
+    margin-top: 0; 
+  }
+
+  .cat-inner-text {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+  }
+
+  .sobaka-inner-text {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+  }
+
+  .homyak {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+    width: 1280px;
+    padding: 20px;
+}
+
+  .homyak div img {
+    width: 500px;
+    height: 350px;
+  }
+  .homyak-inner-text {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .papuga {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+    width: 1280px;
+    padding: 20px;
+
+  }
+   .papuga-inner-text {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+    padding: 20px;
+
+  }
+
+  .info {
+    margin: 50px auto;
+    width: 1300px;
+  }
